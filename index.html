@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Howth</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Howth, Ireland, Dublin, Tourism Ireland, Tourism, Howth Head, Howth Castle">
+    <meta name="description" content="Howth Town Tourism">
+    <meta name="authour" content="Daniel Gerber">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Icon for browser tab-->
+    <link rel="icon" href="_images/fish_icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--Font awesome link for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <!-- Latest compiled and minified CSS -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+    
+  <!--Bootstrap navigation with fixed positioning-->
+    <nav class="navbar navbar-light navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!--Nav-logo class to edit logo styling-->
+            
+          <ul class="nav navbar-nav ">
+            <!--Logo container for moving logo within the navbar-->
+            <div class="logo-container">
+              <li><a href="index.html"><img class="nav-logo" src="_images/howth_logo.jpg"></a></li>
+             
+            <!--Main Navigation Container-->  
+            </div>
+              <!--Main Navigation-->
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="booktour.php">Book a Tour</a></li>
+              <li><a href="tourism.html">Tourism</a></li>
+              <li><a href="attractions.html">Attractions</a></li>
+            
+              <!--Facebook-->
+              <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a></li>
+              <!--Twiiter-->
+              <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a></li>
+              <!--Instagram-->
+              <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></i></a></li>
+              
+              <!--Tel href for opening a call app on mobile-->
+              <li><a id="tel-link" href="tel:#">(012) 1457845</a></li>
+              <!--Quick link email button-->
+              <li><button class="btn navbar-btn email-btn"><a href="contact.html#email-form">email</a></button></li>
+            
+          </ul>
+        </div>
+    </nav>
+
+      <section>
+        <!--mid home class for styling  and positioning the homepage content and heroshot -->
+        <div class="container-fluid mid-home">
+
+          <!--Hero Shot-->
+          <div class="row">
+            <div class="col-sm-12 hero-image">
+              <h2 id="hero-lead">Dublin's Best Coastal Town...</h2>
+            </div>
+          </div>
+
+          <!--Quick links to commonly searched elements-->
+          <div class="row qk-link-container">
+            
+            <!--Quick Link to History-->
+            <div class="col-sm-12 col-md-2 col-md-offset-2 ">
+              <a href="tourism.html#history">
+                <h2>History</h2>
+                <div class="image-quick hist-bg"></div>
+              </a>
+            </div>
+
+            <!--Quick Link to Activities-->
+            <div class="col-sm-12 col-md-2 col-md-offset-1 ">
+              <a href="attractions.html#sites-to-see">
+                <h2>Activities</h2>
+                <div class="image-quick activities-bg"></div>
+              </a>
+            </div>
+
+            <!--Quick Link to Accommodation-->
+            <div class="col-sm-12 col-md-2 col-md-offset-1 ">
+              <a href="tourism.html#accomodation">
+                <h2>Accomodation</h2>
+                <div class="image-quick accom-bg"></div>
+              </a>
+            </div>
+
+          </div>
+
+
+          <!--News container-->
+          <div class="row news-container">
+            
+            <div class="col-sm-12 col-md-4 col-md-offset-2">
+              <!--News Heading-->
+              <h2>News</h2>
+              <!--News Image-->
+              <div class="image-quick news-bg"></div>
+
+              <!--article tag for symantically labling content-->
+              <article>
+                <div class="news-article">
+                  <h3>St. Patrick’s Day</h3>
+                  <p>The community of Howth town is preparing for the biggest Saint Patrick’s Day parade in the town’s history. </br></br>
+                    With an estimated 45 floats on parade and a whopping 200 volunteers involved in the community project.</br></br>
+                    The general vibe in Howth town center has been electric in preparation for our nation’s holiday, celebrated around the world. 
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!--Google Maps-->
+            <div class="col-sm-12 col-md-4">
+              <h2>Find Us</h2>
+              <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.44259585641!2d-6.0764096840192785!3d53.38902217921458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486704bdde3750ef%3A0x3c89cc9338da6bba!2sHowth%20Railway%20Station!5e0!3m2!1sen!2sie!4v1580804798811!5m2!1sen!2sie" width="500" height="530" frameborder="0" style="border:10;" allowfullscreen=""></iframe>
+            </div>
+
+          </div>
+
+          <!--Aerial map-->
+          <div class="row aerial-map-container">
+            <div class="col-sm-12 ">
+              <h2>Points of Interest</h2>
+              <div class="aerial-bg">
+                <!--Transparent image layered on for mapping coordinates over the div background-->
+                <img src="_images/transparent.png" style="position: absolute; width: 95vw; height: inherit; opacity:0.0; filter: opacity(0); " usemap="#howthmap">
+              </div>
+              <!--Howth Map coordinates for links to tourist sites-->
+              <map name="howthmap">
+                <area class="map-hover-coord" shape="rect" coords="100,280,500,320" alt="Balscadden" href="https://eoceanic.com/sailing/harbours/75/balscadden_bay">
+                <area class="map-hover-coord" shape="rect" coords="1000,300,1350,350" alt="Market" href="http://howthmarket.ie/">
+                <area class="map-hover-coord" shape="rect" coords="1300,15,1580,70" alt="Castle" href="https://howthcastle.ie/">
+                <area class="map-hover-coord" shape="rect" coords="790,550,1090,600" alt="Harbour" href="https://afloat.ie/resources/irish-ports/howth-harbour">
+                
+              </map>
+            </div>
+          </div>
+
+          <!--Map information-->
+          <div class="row aerial-info-container">
+            <div class="col-sm-4 col-md-offset-2  ">
+              <span id="text-bay">Balscadden Bay Beach</span>
+              <span id="text-harbour">The Harbour</span>
+              <span id="text-Market">Market</span>
+              <span id="text-castle">Howth Castle</span>
+            </div>
+
+            <!--Container for aerial map text-->
+            <div class="col-sm-4" id="aerial-text-container">
+              <h3>Balscadden Bay</h3>
+            <div id="info-container">
+              <!--Aerial map text dynamically filled/changed with js script-->
+                <p id="aerial-map-text">
+                  Balscadden Bay is situated on the east coast of 
+                  Ireland to the north of Dublin Bay on the far side of the Howth peninsula that juts out into the Irish Sea. </br></br> 
+                  The bay lies on the southeast corner of Howth Harbour underneath the Martello tower at the beginning of the harbour's east pier. 
+                  The anchorage is a good location if you have not been able to secure a berth in Howth Harbour or off its west pier.</br></br> 
+                  Balscadden Bay is a good anchorage that affords protection to all conditions from the south round to west but is completely 
+                  exposed to anything with an easterly component. 
+                  Seaward access is straightforward but daylight navigation is required to locate the bay's fringing rocks.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!--footer-->
+      <footer class="footer">
+        <div class="container-fluid">
+         <div class="row footer-container">
+
+           <div class="col-sm-12 col-md-3 col-md-offset-1 site-nav">
+              <!--Site navigation on footer-->
+              <h6>site navigation</h6>
+              <a href="index.html">home</a>
+              <a href="about.html">about</a>
+              <a href="tourism.html">tourism</a>
+              <a href="attractions.html">attractions</a>
+              <a href="Contact.html">contact</a>
+             <a href="privacy_policy.html">privacy polocy</a>
+            
+           </div> 
+
+           <!--Copyright and privacy policy-->
+           <div class="col-sm-12 col-md-4 site-nav copyright">
+             <ul>
+            <span>copyright	&copy;2020<br/></span>
+              <li><a href="privacy.html">privacy polocy</a></li>
+            </ul>
+           </div> 
+
+           <div class="col-sm-12 col-md-4 site-nav foot-soc">
+            
+              <button class="btn navbar-btn"><a  href="mailto:someone@yoursite.com">Email us</a></button>
+              
+              <!--Facebook-->
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+              <!--Twiiter-->
+              <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+              <!--Instagram-->
+              <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></i></a>
+           
+           </div> 
+          
+          </div>
+        </div>
+      </footer>
+
+</body>
+<!--Script loaded after HTML file is loaded-->
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Howth</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Howth, Ireland, Dublin, Tourism Ireland, Tourism, Howth Head, Howth Castle">
+    <meta name="description" content="Howth Town Tourism">
+    <meta name="authour" content="Daniel Gerber">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!--Icon for browser tab-->
+     <link rel="icon" href="_images/fish_icon.png">   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--Font awesome link for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <!-- Latest compiled and minified CSS -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+    
+  <!--Bootstrap navigation with fixed positioning-->
+    <nav class="navbar navbar-light navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!--Nav-logo class to edit logo styling-->
+            
+          <ul class="nav navbar-nav ">
+            <!--Logo container for moving logo within the navbar-->
+            <div class="logo-container">
+              <li><a href="index.html"><img class="nav-logo" src="_images/howth_logo.jpg"></a></li>
+             
+            <!--Main Navigation Container-->  
+            </div>
+              <!--Main Navigation-->
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="booktour.php">Book a Tour</a></li>
+              <li><a href="tourism.html">Tourism</a></li>
+              <li><a href="attractions.html">Attractions</a></li>
+            
+              <!--Facebook-->
+              <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a></li>
+              <!--Twiiter-->
+              <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a></li>
+              <!--Instagram-->
+              <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></i></a></li>
+              
+              <!--Tel href for opening a call app on mobile-->
+              <li><a id="tel-link" href="tel:#">(012) 1457845</a></li>
+              <!--Quick link email button-->
+              <li><button class="btn navbar-btn email-btn"><a href="contact.html#email-form">email</a></button></li>
+            
+          </ul>
+        </div>
+      </nav>
+
+       <!--page header-->
+    <div class="container-fluid">
+        <div class="row page-header-container">
+            <div class="col-sm-12 col-md-3 ">
+                <h2 class="page-header">Contact</h2>
+            </div>
+        </div>
+
+        <!--Page Section-->
+        <div class="row page-section" id="email-form">
+            <div class="col-sm-12 col-md-6 col-md-offset-6 section-header-container">
+                <h3 class="section-header">Email Us</h3>
+            </div>
+
+            <!--section for images and captions-->
+            <div class="col-sm-2 col-md-offset-2">
+                <div class="section-article-image cancel-hover" id="contact-img1"></div>
+                <span class="caption-text "><p>Howth Lighthouse</p></span>
+                <div class="section-article-image cancel-hover" id="contact-img2"></div>
+                <span class="caption-text"><p>Howth Harbour</p></span>
+                <div class="section-article-image cancel-hover" id="contact-img3"></div>
+                <span class="caption-text"><p>Howth Fish Monger</p></span>
+            </div>
+
+            <!--Form-->
+            <div class="col-sm-5 col-md-offset-1">
+                <div class="section-article-text">
+                    <form action="#">
+                        <div class="container-fluid">
+                            <!--name input with required attribute-->
+                            <div class="row form-input-row">
+                                <div class="col-md-2">
+                                    <label for="name">Name</label> 
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="text" id="name" name="name" required value="Please enter your name * required">
+                                </div>
+                                <br/> 
+                            </div>  
+                             <!--email input with required attribute-->
+                            <div class="row form-input-row">
+                                <div class="col-md-2">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="email" id="email" name="email" required value="Please enter your email * required"><br/>
+                                </div>
+                                <br/> 
+                            </div>  
+                             <!--textbox input not required for a brief message-->
+                            <div class="row form-input-row">
+                                <div class="col-md-2">
+                                    <label for="message">Message</label>
+                                </div>
+                                <div class="col-md-2">
+                                    <textarea rows="10" cols="50" id="message" name="message"></textarea><br/>
+                                </div>
+                                <br/> 
+                            </div>  
+                            <!--submit button-->
+                            <div class="row form-input-row"> 
+                                <div class="col-md-2">
+                                    <button type="submit" value="send">Send</button>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+
+       
+        <!--Page Section reverse-->
+        <div class=" row page-section">
+            <div class="col-sm-12 col-md-4 col-md-offset-2 section-header-container">
+                <h3 class="section-header">The Marketing Firm Howth</h3>
+            </div>
+              
+            <!--Address for the marketing firm-->
+            <div class="">
+                 <div class="col-sm-5 col-md-offset-2">
+                     <div class="section-article-text">
+                        <ul style="list-style-type: none;">
+                            <li><Address>12 Thormanby Road</br> Howth</br>Dublin<br>Ireland</Address></li>
+                            <li><a id="tel-link" href="tel:#">(012) 1457845</a></li>
+                            <li><a href="mailto:marketingfirm@info.ie">marketingfirm@info.ie</a></li>
+                            </br>
+                        </ul>
+                        <!--Youtube Video-->
+                        <iframe width="100%" height="61%" src="https://www.youtube.com/embed/XZ9JVvwfuUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            
+             <!--section for images and captions-->
+            <div class="col-sm-2 col-md-offset-1">
+                <div class="section-article-image cancel-hover" id="contact-img4"></div>
+                <span class="caption-text"><p>Howth Harbour</p></span>
+                <div class="section-article-image cancel-hover" id="contact-img5"></div>
+                <span class="caption-text"><p>Baby Seal Do do dodo dodo</p></span>
+                <div class="section-article-image cancel-hover" id="contact-img6"></div>
+                <span class="caption-text"><p>Seagulls goin' com'</p></span>
+            </div>
+        </div>
+            
+        </div>
+
+   
+</div>
+       <!--footer-->
+      <footer class="footer">
+        <div class="container-fluid">
+         <div class="row footer-container">
+
+           <div class="col-sm-12 col-md-3 col-md-offset-1 site-nav">
+            
+              <h6>site navigation</h6>
+              <a href="index.html">home</a>
+              <a href="about.html">about</a>
+              <a href="tourism.html">tourism</a>
+              <a href="attractions.html">attractions</a>
+              <a href="Contact.html">contact</a>
+             <a href="privacy.html">privacy polocy</a>
+            
+           </div> 
+
+           <div class="col-sm-12 col-md-4 site-nav copyright">
+             <ul>
+            <span>copyright	&copy;2020<br/></span>
+              <li><a href="privacy.html">privacy polocy</a></li>
+            </ul>
+           </div> 
+
+           <div class="col-sm-12 col-md-4 site-nav foot-soc">
+            
+              <button class="btn navbar-btn"><a  href="mailto:someone@yoursite.com">Email us</a></button>
+              
+              <!--Facebook-->
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+              <!--Twiiter-->
+              <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+              <!--Instagram-->
+              <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></i></a>
+           
+           </div> 
+          
+          </div>
+        </div>
+      </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
